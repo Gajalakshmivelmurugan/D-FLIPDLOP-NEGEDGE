@@ -40,6 +40,8 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 6.Verify Output Behavior: Verify that the output behavior of the D flip-flop matches the expected behavior defined by its functional table.
 
 7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
+
+
 **PROGRAM**
 ```
 module d_ff_neg_edge (d, clk, rst, q);
